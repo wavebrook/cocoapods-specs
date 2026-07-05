@@ -1,0 +1,30 @@
+{
+  "name": "WavebrookAdapterCellRebel",
+  "version": "1.3.6.0-beta.2",
+  "summary": "Wavebrook adapter for the CellRebel network-measurement SDK.",
+  "homepage": "https://wavebrook.com",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright Wavebrook. All rights reserved."
+  },
+  "authors": {
+    "Wavebrook": "dev@wavebrook.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.9",
+  "source": {
+    "http": "https://resources.wavebrook.com/sdk/ios/WavebrookAdapterCellRebel-1.3.6.0-beta.2.xcframework.zip"
+  },
+  "vendored_frameworks": "WavebrookAdapterCellRebel.xcframework",
+  "dependencies": {
+    "WavebrookCore": [
+      "2.0.0-beta.2"
+    ],
+    "CellRebelSDK": [
+      "~> 1.3.6"
+    ]
+  },
+  "swift_version": "5.9"
+}
