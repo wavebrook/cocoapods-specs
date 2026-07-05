@@ -11,7 +11,7 @@
     "Wavebrook": "dev@wavebrook.com"
   },
   "platforms": {
-    "ios": "15.0"
+    "ios": "13.0"
   },
   "swift_versions": "5.9",
   "source": {
