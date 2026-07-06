@@ -1,0 +1,23 @@
+{
+  "name": "WavebrookCore",
+  "version": "2.0.0-beta.3",
+  "summary": "Wavebrook iOS SDK — consent-aware orchestrator core.",
+  "description": "The Wavebrook core engine: façade, adapter discovery, remote config, IAB-TCF consent gating,\npartner lifecycle management, and first-party telemetry. Mirror of the Android `core` module.",
+  "homepage": "https://wavebrook.com",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright Wavebrook. All rights reserved."
+  },
+  "authors": {
+    "Wavebrook": "dev@wavebrook.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.9",
+  "source": {
+    "http": "https://resources.wavebrook.com/sdk/ios/WavebrookCore-2.0.0-beta.3.xcframework.zip"
+  },
+  "vendored_frameworks": "WavebrookCore.xcframework",
+  "swift_version": "5.9"
+}
