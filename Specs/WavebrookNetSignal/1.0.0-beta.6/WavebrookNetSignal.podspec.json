@@ -26,7 +26,7 @@
       "1.3.6.0-beta.6"
     ],
     "WavebrookAdapterRootlake": [
-      "~> 1.1"
+      "1.1.0.0-beta.6"
     ]
   },
   "swift_version": "5.9"
