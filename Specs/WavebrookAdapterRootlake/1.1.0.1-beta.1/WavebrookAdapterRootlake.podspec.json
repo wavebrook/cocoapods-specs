@@ -1,0 +1,27 @@
+{
+  "name": "WavebrookAdapterRootlake",
+  "version": "1.1.0.1-beta.1",
+  "summary": "Wavebrook adapter for the Rootlake network-measurement SDK.",
+  "homepage": "https://wavebrook.com",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright Wavebrook. All rights reserved."
+  },
+  "authors": {
+    "Wavebrook": "dev@wavebrook.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.9",
+  "source": {
+    "http": "https://resources.wavebrook.com/sdk/ios/WavebrookAdapterRootlake-1.1.0.1-beta.1.xcframework.zip"
+  },
+  "vendored_frameworks": "WavebrookAdapterRootlake.xcframework",
+  "dependencies": {
+    "WavebrookCore": [
+      "2.0.0-beta.6"
+    ]
+  },
+  "swift_version": "5.9"
+}
