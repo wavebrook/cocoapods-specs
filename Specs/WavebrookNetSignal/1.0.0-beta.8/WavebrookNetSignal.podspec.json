@@ -1,0 +1,33 @@
+{
+  "name": "WavebrookNetSignal",
+  "version": "1.0.0-beta.8",
+  "summary": "Wavebrook NetSignal — the core engine plus a curated set of adapters.",
+  "homepage": "https://wavebrook.com",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright Wavebrook. All rights reserved."
+  },
+  "authors": {
+    "Wavebrook": "dev@wavebrook.com"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "swift_versions": "5.9",
+  "source": {
+    "http": "https://resources.wavebrook.com/sdk/ios/WavebrookNetSignal-1.0.0-beta.8.xcframework.zip"
+  },
+  "vendored_frameworks": "WavebrookNetSignal.xcframework",
+  "dependencies": {
+    "WavebrookCore": [
+      "2.0.0-beta.6"
+    ],
+    "WavebrookAdapterCellRebel": [
+      "1.5.1.0-beta.1"
+    ],
+    "WavebrookAdapterRootlake": [
+      "1.1.0.1-beta.1"
+    ]
+  },
+  "swift_version": "5.9"
+}
