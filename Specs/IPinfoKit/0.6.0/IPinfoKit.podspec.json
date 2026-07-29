@@ -1,0 +1,25 @@
+{
+  "name": "IPinfoKit",
+  "version": "0.6.0",
+  "summary": "IPinfo device SDK for Apple platforms (mirror spec; binaries download from IPinfo).",
+  "homepage": "https://ipinfo.io",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright IPinfo. All rights reserved. See https://github.com/ipinfo/apple-device-sdk-xcframeworks/blob/main/LICENSE"
+  },
+  "authors": {
+    "IPinfo": "https://ipinfo.io"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source": {
+    "http": "https://github.com/ipinfo/apple-device-sdk-xcframeworks/releases/download/0.6.0/IPinfoKit.xcframework.zip"
+  },
+  "prepare_command": "curl -fL -O https://github.com/ipinfo/apple-device-sdk-xcframeworks/releases/download/0.6.0/HTTPClient.xcframework.zip\ncurl -fL -O https://github.com/ipinfo/apple-device-sdk-xcframeworks/releases/download/0.6.0/Hopscotch.xcframework.zip\nunzip -o HTTPClient.xcframework.zip\nunzip -o Hopscotch.xcframework.zip",
+  "vendored_frameworks": [
+    "IPinfoKit.xcframework",
+    "HTTPClient.xcframework",
+    "Hopscotch.xcframework"
+  ]
+}
