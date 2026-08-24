@@ -1,0 +1,30 @@
+{
+  "name": "WavebrookAdapterIPinfo",
+  "version": "0.6.0.0",
+  "summary": "Wavebrook adapter for the IPinfo device SDK.",
+  "homepage": "https://wavebrook.com",
+  "license": {
+    "type": "Proprietary",
+    "text": "Copyright Wavebrook. All rights reserved."
+  },
+  "authors": {
+    "Wavebrook": "dev@wavebrook.com"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "swift_versions": "5.9",
+  "source": {
+    "http": "https://resources.wavebrook.com/sdk/ios/WavebrookAdapterIPinfo-0.6.0.0.xcframework.zip"
+  },
+  "vendored_frameworks": "WavebrookAdapterIPinfo.xcframework",
+  "dependencies": {
+    "WavebrookCore": [
+      "~> 2.0"
+    ],
+    "IPinfoKit": [
+      "~> 0.6.0"
+    ]
+  },
+  "swift_version": "5.9"
+}
