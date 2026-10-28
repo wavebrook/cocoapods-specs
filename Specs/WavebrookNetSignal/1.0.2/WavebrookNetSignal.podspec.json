@@ -27,7 +27,7 @@
       "~> 1.5.1.2"
     ],
     "WavebrookAdapterIPinfo": [
-      "~> 0.6.4.0"
+      "~> 0.6.4.1"
     ],
     "WavebrookAdapterRootlake": [
       "~> 1.1.2.0"
