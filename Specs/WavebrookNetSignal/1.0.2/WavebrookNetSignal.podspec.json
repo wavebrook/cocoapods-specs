@@ -24,7 +24,7 @@
       "< 3.0"
     ],
     "WavebrookAdapterCellRebel": [
-      "~> 1.5.1.1"
+      "~> 1.5.1.2"
     ],
     "WavebrookAdapterIPinfo": [
       "~> 0.6.4.0"
