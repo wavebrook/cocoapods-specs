@@ -20,7 +20,7 @@
   "vendored_frameworks": "WavebrookNetSignal.xcframework",
   "dependencies": {
     "WavebrookCore": [
-      ">= 2.0.1",
+      ">= 2.0.2",
       "< 3.0"
     ],
     "WavebrookAdapterCellRebel": [
